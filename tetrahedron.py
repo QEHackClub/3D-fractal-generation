@@ -9,8 +9,11 @@ use maths not sympy
 
 
 #initial .stl file
+
 name=input("give your creation a name\n")
-f=open("C:/Users/euanr/3D Objects/"+ name + ".stl", "w")
+f = open(name + ".stl", "x")
+f.close()
+f=open(name + ".stl", "w")
 mod=int(input("mod value:\n"))
 f.write("solid " + name + "\n")
 
