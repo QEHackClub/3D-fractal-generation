@@ -3,7 +3,7 @@ from PIL import Image
 import numpy
 import amulet_nbt #be sure to use the 1.0 pure python version
 
-#these are all the recorded RGB values for a bunch of blocks, in the order given by palette
+#these are all the recorded RGB values for a bunch of blocks, in the order given by palette, i do 3D pythag to determine closest colour match
 concs=[
 [191,165,169],
 [8,10,15],
